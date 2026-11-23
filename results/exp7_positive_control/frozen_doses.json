@@ -1,0 +1,299 @@
+{
+  "band_selection": 0.014285956619079408,
+  "PC-full": {
+    "dose": 800,
+    "status": "did not reach Retrain in FP32 on the selection seeds",
+    "per_dose": {
+      "100": {
+        "improvement": 0.14855362705829994,
+        "ci95": [
+          0.13074110857088794,
+          0.16636614554571194
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.10483472913379459,
+        "utility": 0.7248747913188648,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "200": {
+        "improvement": 0.14984828255856292,
+        "ci95": [
+          0.13376905185024487,
+          0.16592751326688096
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.10354007363353161,
+        "utility": 0.7235392320534224,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "400": {
+        "improvement": 0.14938706153659423,
+        "ci95": [
+          0.13165844542027538,
+          0.16711567765291307
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.10400129465550031,
+        "utility": 0.7236060100166944,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "800": {
+        "improvement": 0.15075858720718532,
+        "ci95": [
+          0.13350576274532985,
+          0.1680114116690408
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.1026297689849092,
+        "utility": 0.725008347245409,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      }
+    }
+  },
+  "PC-half": {
+    "dose": 800,
+    "status": "did not reach Retrain in FP32 on the selection seeds",
+    "per_dose": {
+      "100": {
+        "improvement": 0.19865679491847715,
+        "ci95": [
+          0.17638448618734312,
+          0.22092910364961119
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.05473156127361738,
+        "utility": 0.7212687813021702,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "200": {
+        "improvement": 0.20213618157543395,
+        "ci95": [
+          0.18355264053192547,
+          0.22071972261894243
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.05125217461666063,
+        "utility": 0.7212687813021702,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "400": {
+        "improvement": 0.20148885382530243,
+        "ci95": [
+          0.17988087046084364,
+          0.22309683718976123
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.05189950236679208,
+        "utility": 0.7214023372287145,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "800": {
+        "improvement": 0.20383137112109076,
+        "ci95": [
+          0.18170052187184868,
+          0.22596222037033284
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.04955698507100381,
+        "utility": 0.7217362270450751,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      }
+    }
+  },
+  "PC-none": {
+    "dose": 100,
+    "status": "reached Retrain",
+    "per_dose": {
+      "100": {
+        "improvement": 0.2424485172148724,
+        "ci95": [
+          0.2161394085841759,
+          0.2687576258455689
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.010939838977222172,
+        "utility": 0.721135225375626,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": true,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": true
+      },
+      "200": {
+        "improvement": 0.24615446858437512,
+        "ci95": [
+          0.22377121961376661,
+          0.2685377175549836
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.007233887607719447,
+        "utility": 0.7189983305509182,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": true,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": true
+      },
+      "400": {
+        "improvement": 0.2462758425375248,
+        "ci95": [
+          0.22156266828191862,
+          0.270989016793131
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.007112513654569752,
+        "utility": 0.7195325542570952,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": true,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": true
+      },
+      "800": {
+        "improvement": 0.24934255775377273,
+        "ci95": [
+          0.22282475335033303,
+          0.27586036215721244
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.00404579843832179,
+        "utility": 0.7189983305509182,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": true,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": true
+      }
+    }
+  },
+  "PC-full-INT3": {
+    "dose": 800,
+    "status": "did not reach Retrain in FP32 on the selection seeds",
+    "per_dose": {
+      "100": {
+        "improvement": 0.2047659505603431,
+        "ci95": [
+          0.18146036269311278,
+          0.22807153842757344
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.04862240563175145,
+        "utility": 0.7215358931552588,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "200": {
+        "improvement": 0.2075494598859085,
+        "ci95": [
+          0.18709014397659196,
+          0.22800877579522505
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.04583889630618608,
+        "utility": 0.7208013355592654,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "400": {
+        "improvement": 0.20701541449205002,
+        "ci95": [
+          0.18320662428766604,
+          0.230824204696434
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.046372941700044544,
+        "utility": 0.7214023372287144,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      },
+      "800": {
+        "improvement": 0.20984747339887524,
+        "ci95": [
+          0.1862816477579086,
+          0.2334132990398419
+        ],
+        "seeds_improving": "5/5",
+        "dist": 0.04354088279321929,
+        "utility": 0.7210016694490818,
+        "utility_original": 0.7225375626043407,
+        "criteria": {
+          "within_band": false,
+          "improves_on_enough_seeds": true,
+          "utility_ok": true
+        },
+        "passed": false
+      }
+    }
+  }
+}

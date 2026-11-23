@@ -1,0 +1,44 @@
+{
+  "CiteSeer": {
+    "lr": 0.005,
+    "dose": 100,
+    "band": 0.017244301658500813,
+    "mean_update_norm": 14.627736473083496,
+    "med_step_INT4_per_channel": 0.34828065931797025,
+    "update_class": "small",
+    "eval_improvement": 0.23825504713355183,
+    "ci95": [
+      0.22240383824073084,
+      0.2541062560263728
+    ],
+    "criteria": {
+      "ci_above_0": true,
+      "improves_on_4of5": true,
+      "within_band": true,
+      "utility_ok": true,
+      "original_fails_band": true
+    },
+    "success": true
+  },
+  "Cora": {
+    "lr": 0.005,
+    "dose": 200,
+    "band": 0.006537896381843725,
+    "mean_update_norm": 12.35246696472168,
+    "med_step_INT4_per_channel": 0.2608787178993225,
+    "update_class": "small",
+    "eval_improvement": 0.19158994926017078,
+    "ci95": [
+      0.1540693258299853,
+      0.22911057269035626
+    ],
+    "criteria": {
+      "ci_above_0": true,
+      "improves_on_4of5": true,
+      "within_band": false,
+      "utility_ok": true,
+      "original_fails_band": true
+    },
+    "success": false
+  }
+}

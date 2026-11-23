@@ -1,0 +1,18 @@
+{
+  "CiteSeer": {
+    "lr": 0.005,
+    "dose": 100,
+    "band": 0.017244301658500813,
+    "mean_update_norm": 14.627736473083496,
+    "med_step_INT4_per_channel": 0.34828065931797025,
+    "update_class": "small"
+  },
+  "Cora": {
+    "lr": 0.005,
+    "dose": 200,
+    "band": 0.006537896381843725,
+    "mean_update_norm": 12.35246696472168,
+    "med_step_INT4_per_channel": 0.2608787178993225,
+    "update_class": "small"
+  }
+}

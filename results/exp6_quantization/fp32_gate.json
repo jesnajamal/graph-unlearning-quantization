@@ -1,0 +1,93 @@
+{
+  "CiteSeer": {
+    "band_fp32": 0.01217951317329285,
+    "earlier_bands": {
+      "exp6_cpu_reference": 0.0172,
+      "exp6_kaggle_gpu": 0.0126
+    },
+    "dist_original": 0.23575272079944973,
+    "retrains_within_band": "18/20",
+    "doses": {
+      "100": {
+        "improvement": 0.23177974673301774,
+        "ci95": [
+          0.18364025916019963,
+          0.2799192343058358
+        ],
+        "seeds_improving": "5/5",
+        "dist_ft": 0.003972974066431989,
+        "utility_ft": 0.7103171953255425,
+        "utility_original": 0.7158597662771286,
+        "within_earlier_bands": {
+          "exp6_cpu_reference": true,
+          "exp6_kaggle_gpu": true
+        },
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      }
+    }
+  },
+  "Cora": {
+    "band_fp32": 0.018081724104244367,
+    "earlier_bands": {
+      "exp6_cpu_reference": 0.0065,
+      "exp6_kaggle_gpu": 0.0235
+    },
+    "dist_original": 0.1805183362197308,
+    "retrains_within_band": "20/20",
+    "doses": {
+      "100": {
+        "improvement": 0.17192598669218853,
+        "ci95": [
+          0.13541689623481565,
+          0.20843507714956142
+        ],
+        "seeds_improving": "5/5",
+        "dist_ft": 0.008592349527542276,
+        "utility_ft": 0.8277276456111569,
+        "utility_original": 0.8334700574241181,
+        "within_earlier_bands": {
+          "exp6_cpu_reference": false,
+          "exp6_kaggle_gpu": true
+        },
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      },
+      "200": {
+        "improvement": 0.1768419773341841,
+        "ci95": [
+          0.13872023557491503,
+          0.2149637190934532
+        ],
+        "seeds_improving": "5/5",
+        "dist_ft": 0.0036763588855466935,
+        "utility_ft": 0.8277276456111565,
+        "utility_original": 0.8334700574241181,
+        "within_earlier_bands": {
+          "exp6_cpu_reference": true,
+          "exp6_kaggle_gpu": true
+        },
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      }
+    }
+  }
+}

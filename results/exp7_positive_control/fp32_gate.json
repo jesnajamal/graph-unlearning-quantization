@@ -1,0 +1,106 @@
+{
+  "band_fp32": 0.017250278755037065,
+  "dist_original": 0.2427519520977465,
+  "models": {
+    "FT": {
+      "model": "FT dose=100",
+      "improvement": 0.23663875065744225,
+      "ci95": [
+        0.19138528014319134,
+        0.28189222117169316
+      ],
+      "seeds_improving": "5/5",
+      "dist": 0.006113201440304283,
+      "utility": 0.7126544240400667,
+      "utility_original": 0.7191986644407345,
+      "criteria": {
+        "within_band": true,
+        "improves_on_enough_seeds": true,
+        "utility_ok": true,
+        "ci_above_0": true,
+        "original_fails_band": true
+      },
+      "passed": true
+    },
+    "PC-full": {
+      "model": "PC-full dose=800",
+      "improvement": 0.14048630497228629,
+      "ci95": [
+        0.11725102513861044,
+        0.16372158480596213
+      ],
+      "seeds_improving": "5/5",
+      "dist": 0.10226564712546023,
+      "utility": 0.7159933222036727,
+      "utility_original": 0.7191986644407345,
+      "criteria": {
+        "within_band": false,
+        "improves_on_enough_seeds": true,
+        "utility_ok": true,
+        "ci_above_0": true,
+        "original_fails_band": true
+      },
+      "passed": false
+    },
+    "PC-half": {
+      "model": "PC-half dose=800",
+      "improvement": 0.19411740907068012,
+      "ci95": [
+        0.15770296201498765,
+        0.2305318561263726
+      ],
+      "seeds_improving": "5/5",
+      "dist": 0.0486345430270664,
+      "utility": 0.713856427378965,
+      "utility_original": 0.7191986644407345,
+      "criteria": {
+        "within_band": false,
+        "improves_on_enough_seeds": true,
+        "utility_ok": true,
+        "ci_above_0": true,
+        "original_fails_band": true
+      },
+      "passed": false
+    },
+    "PC-none": {
+      "model": "PC-none dose=100",
+      "improvement": 0.23652951409960762,
+      "ci95": [
+        0.19042224856145662,
+        0.28263677963775863
+      ],
+      "seeds_improving": "5/5",
+      "dist": 0.006222437998138897,
+      "utility": 0.7123873121869784,
+      "utility_original": 0.7191986644407345,
+      "criteria": {
+        "within_band": true,
+        "improves_on_enough_seeds": true,
+        "utility_ok": true,
+        "ci_above_0": true,
+        "original_fails_band": true
+      },
+      "passed": true
+    },
+    "PC-full-INT3": {
+      "model": "PC-full-INT3 dose=800",
+      "improvement": 0.2011166403689768,
+      "ci95": [
+        0.16817569510940764,
+        0.23405758562854598
+      ],
+      "seeds_improving": "5/5",
+      "dist": 0.041635311728769706,
+      "utility": 0.7136560934891486,
+      "utility_original": 0.7191986644407345,
+      "criteria": {
+        "within_band": false,
+        "improves_on_enough_seeds": true,
+        "utility_ok": true,
+        "ci_above_0": true,
+        "original_fails_band": true
+      },
+      "passed": false
+    }
+  }
+}

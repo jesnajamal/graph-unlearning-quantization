@@ -1,0 +1,498 @@
+{
+  "CiteSeer": {
+    "band_fp32": 0.02130027080531807,
+    "dist_original": 0.23331715013958004,
+    "models": {
+      "FT dose=100": {
+        "dist": 0.00575717117773189,
+        "improvement": 0.22755997896184815,
+        "ci95": [
+          0.1999310894525396,
+          0.25518886847115674
+        ],
+        "phi": 0.975787331917773,
+        "phi_ci95": [
+          0.9608268861969347,
+          0.9907477776386113
+        ],
+        "utility": 0.7117195325542571,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      },
+      "RC-p0.00": {
+        "dist": 0.005571064449569141,
+        "improvement": 0.22774608569001087,
+        "ci95": [
+          0.19917375340860866,
+          0.2563184179714131
+        ],
+        "phi": 0.9764454787871136,
+        "phi_ci95": [
+          0.9550447222374131,
+          0.9978462353368142
+        ],
+        "utility": 0.7131218697829718,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      },
+      "RC-p0.25": {
+        "dist": 0.02064166363231783,
+        "improvement": 0.2126754865072622,
+        "ci95": [
+          0.1845891637828193,
+          0.2407618092317051
+        ],
+        "phi": 0.9114832066856986,
+        "phi_ci95": [
+          0.882909473495597,
+          0.9400569398758002
+        ],
+        "utility": 0.7136560934891486,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      },
+      "RC-p0.50": {
+        "dist": 0.044875996277865406,
+        "improvement": 0.18844115386171462,
+        "ci95": [
+          0.16235710647114468,
+          0.21452520125228455
+        ],
+        "phi": 0.8072611396758171,
+        "phi_ci95": [
+          0.780748681206749,
+          0.8337735981448853
+        ],
+        "utility": 0.714991652754591,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "RC-p0.75": {
+        "dist": 0.07130112877776426,
+        "improvement": 0.16201602136181575,
+        "ci95": [
+          0.14130590271238203,
+          0.18272614001124948
+        ],
+        "phi": 0.6944347294758161,
+        "phi_ci95": [
+          0.6845167841389063,
+          0.7043526748127259
+        ],
+        "utility": 0.7164607679465776,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "RC-p0.90": {
+        "dist": 0.08769268115062509,
+        "improvement": 0.14562446898895492,
+        "ci95": [
+          0.12678248988240076,
+          0.1644664480955091
+        ],
+        "phi": 0.624121525830294,
+        "phi_ci95": [
+          0.6143942747073416,
+          0.6338487769532464
+        ],
+        "utility": 0.7161936560934892,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "RC-p1.00": {
+        "dist": 0.0990209167779261,
+        "improvement": 0.13429623336165392,
+        "ci95": [
+          0.11680317939262594,
+          0.1517892873306819
+        ],
+        "phi": 0.5756148711277227,
+        "phi_ci95": [
+          0.5602362721699279,
+          0.5909934700855175
+        ],
+        "utility": 0.7163939899833055,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.01": {
+        "dist": 0.0990047335841728,
+        "improvement": 0.1343124165554072,
+        "ci95": [
+          0.11673471267106707,
+          0.15189012043974737
+        ],
+        "phi": 0.5756528880738923,
+        "phi_ci95": [
+          0.5608737435389507,
+          0.5904320326088338
+        ],
+        "utility": 0.7169949916527545,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.05": {
+        "dist": 0.09954687057490792,
+        "improvement": 0.1337702795646721,
+        "ci95": [
+          0.11594651214122066,
+          0.15159404698812357
+        ],
+        "phi": 0.5732470217428928,
+        "phi_ci95": [
+          0.5576138068722087,
+          0.5888802366135768
+        ],
+        "utility": 0.7169282136894825,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.10": {
+        "dist": 0.10007282437188983,
+        "improvement": 0.1332443257676902,
+        "ci95": [
+          0.1150583651093057,
+          0.15143028642607473
+        ],
+        "phi": 0.5708512363101731,
+        "phi_ci95": [
+          0.5556902077129873,
+          0.5860122649073589
+        ],
+        "utility": 0.7164607679465778,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.25": {
+        "dist": 0.10060686976574829,
+        "improvement": 0.13271028037383176,
+        "ci95": [
+          0.11439125202678087,
+          0.15102930872088263
+        ],
+        "phi": 0.5685063058994988,
+        "phi_ci95": [
+          0.552358150900904,
+          0.5846544608980936
+        ],
+        "utility": 0.7161936560934892,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      }
+    }
+  },
+  "Cora": {
+    "band_fp32": 0.019038508397916556,
+    "dist_original": 0.176571567465743,
+    "models": {
+      "FT dose=100": {
+        "dist": 0.008002916780603431,
+        "improvement": 0.1685686506851396,
+        "ci95": [
+          0.12995277117906112,
+          0.20718453019121807
+        ],
+        "phi": 0.9560913726947253,
+        "phi_ci95": [
+          0.9302024061039277,
+          0.981980339285523
+        ],
+        "utility": 0.8311730926989336,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      },
+      "RC-p0.00": {
+        "dist": 0.0033391061282775913,
+        "improvement": 0.17323246133746545,
+        "ci95": [
+          0.12841452295599048,
+          0.2180503997189404
+        ],
+        "phi": 0.9789610899681769,
+        "phi_ci95": [
+          0.9497419492646678,
+          1.008180230671686
+        ],
+        "utility": 0.8337981952420016,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      },
+      "RC-p0.25": {
+        "dist": 0.015437669006167753,
+        "improvement": 0.1611338984595753,
+        "ci95": [
+          0.12452559532469767,
+          0.1977422015944529
+        ],
+        "phi": 0.9140252175260416,
+        "phi_ci95": [
+          0.8806555127080344,
+          0.9473949223440488
+        ],
+        "utility": 0.8342083675143559,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": true,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": true
+      },
+      "RC-p0.50": {
+        "dist": 0.03214839121319836,
+        "improvement": 0.1444231762525447,
+        "ci95": [
+          0.11263139845109191,
+          0.17621495405399748
+        ],
+        "phi": 0.8199752717911976,
+        "phi_ci95": [
+          0.7845303132416032,
+          0.855420230340792
+        ],
+        "utility": 0.8345365053322397,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "RC-p0.75": {
+        "dist": 0.05068210129735973,
+        "improvement": 0.1258894661683833,
+        "ci95": [
+          0.09798179022848054,
+          0.1537971421082861
+        ],
+        "phi": 0.7146209810269866,
+        "phi_ci95": [
+          0.6832320003647989,
+          0.7460099616891742
+        ],
+        "utility": 0.834946677604594,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "RC-p0.90": {
+        "dist": 0.06287485188223499,
+        "improvement": 0.11369671558350805,
+        "ci95": [
+          0.089440308211573,
+          0.1379531229554431
+        ],
+        "phi": 0.6460884490966401,
+        "phi_ci95": [
+          0.610769546267057,
+          0.6814073519262231
+        ],
+        "utility": 0.8347826086956521,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "RC-p1.00": {
+        "dist": 0.07120286816759336,
+        "improvement": 0.10536869929814967,
+        "ci95": [
+          0.08325212513949175,
+          0.1274852734568076
+        ],
+        "phi": 0.599044872615916,
+        "phi_ci95": [
+          0.5641087626577861,
+          0.6339809825740459
+        ],
+        "utility": 0.8341263330598851,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.01": {
+        "dist": 0.07133047731899247,
+        "improvement": 0.10524109014675057,
+        "ci95": [
+          0.08343685474023964,
+          0.1270453255532615
+        ],
+        "phi": 0.598420415138971,
+        "phi_ci95": [
+          0.5666296754913662,
+          0.6302111547865759
+        ],
+        "utility": 0.8346185397867105,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.05": {
+        "dist": 0.07114817853127944,
+        "improvement": 0.1054233889344636,
+        "ci95": [
+          0.08360775008460646,
+          0.12723902778432072
+        ],
+        "phi": 0.5994422540148856,
+        "phi_ci95": [
+          0.5705006759826501,
+          0.6283838320471211
+        ],
+        "utility": 0.8354388843314192,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.10": {
+        "dist": 0.07114210190502232,
+        "improvement": 0.1054294655607207,
+        "ci95": [
+          0.08292620810175333,
+          0.12793272301968808
+        ],
+        "phi": 0.5989675228226018,
+        "phi_ci95": [
+          0.5742853926499241,
+          0.6236496529952795
+        ],
+        "utility": 0.836177194421657,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      },
+      "TF-f0.25": {
+        "dist": 0.04109926168990974,
+        "improvement": 0.1354723057758333,
+        "ci95": [
+          0.07985915422627701,
+          0.1910854573253896
+        ],
+        "phi": 0.754742887560224,
+        "phi_ci95": [
+          0.5952206197702389,
+          0.9142651553502091
+        ],
+        "utility": 0.8351107465135357,
+        "criteria": {
+          "ci_above_0": true,
+          "improves_on_enough_seeds": true,
+          "within_band": false,
+          "utility_ok": true,
+          "original_fails_band": true
+        },
+        "passed": false
+      }
+    }
+  }
+}

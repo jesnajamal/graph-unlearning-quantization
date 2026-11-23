@@ -1,0 +1,8 @@
+{
+  "device": "cpu",
+  "torch": "2.11.0+cpu",
+  "torch_geometric": "2.8.1",
+  "exp8_dir": "/kaggle/input/datasets/jesnajamal/exp8-confinement-curve",
+  "exp8_fingerprint": "5bf4efb8184d2460",
+  "started": "2026-11-22 14:17:43"
+}

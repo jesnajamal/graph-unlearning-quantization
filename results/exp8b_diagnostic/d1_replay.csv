@@ -1,0 +1,11 @@
+dataset,seed,max_abs_diff_vs_saved,exact
+CiteSeer,70,0.0,True
+CiteSeer,71,0.0,True
+CiteSeer,72,0.0,True
+CiteSeer,73,0.0,True
+CiteSeer,74,0.0,True
+Cora,70,0.0,True
+Cora,71,0.0,True
+Cora,72,0.0,True
+Cora,73,0.0,True
+Cora,74,0.0,True

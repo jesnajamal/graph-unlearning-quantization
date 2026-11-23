@@ -1,0 +1,62 @@
+{
+  "fingerprint": "5bf4efb8184d2460",
+  "config": {
+    "datasets": [
+      "CiteSeer",
+      "Cora"
+    ],
+    "primary_dataset": "CiteSeer",
+    "hidden": 128,
+    "dropout": 0.5,
+    "lr_train": 0.01,
+    "weight_decay": 0.0005,
+    "epochs": 200,
+    "train_frac": 0.1,
+    "delete_frac": 0.1,
+    "ft_lr": 0.005,
+    "ft_dose": 100,
+    "variant_steps": 400,
+    "rc_shares": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      1.0
+    ],
+    "tf_free": [
+      0.01,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "cell_bits": 4,
+    "cell_margin": 0.05,
+    "n_retrain": 5,
+    "seeds": [
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "bits": [
+      8,
+      4,
+      3
+    ],
+    "schemes": [
+      "per_channel"
+    ],
+    "scale_modes": [
+      "recomputed",
+      "frozen_original"
+    ],
+    "noise_draws": 3,
+    "min_seeds_agree": 4,
+    "utility_tolerance": 0.02,
+    "collapse_drop": 0.05,
+    "existence_min_reversal": 0.1,
+    "unstable_rms": 0.01
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "outcome": "ANALYSED",
+  "primary": [
+    {
+      "dataset": "CiteSeer",
+      "dose": 100,
+      "bits": 4,
+      "scheme": "per_channel",
+      "scale_mode": "recomputed",
+      "primary": true,
+      "verdict": "PRESERVED",
+      "band_fp32": 0.01217951317329285,
+      "band_q": 0.013957734889708294,
+      "effective_band": 0.013957734889708294,
+      "dist_fp32_FT": 0.003972974066431989,
+      "dist_q_FT": 0.00418335558522479,
+      "seeds_within_band": "5/5",
+      "dist_q_Original": 0.2342153173928875,
+      "increase_dist": 0.00021038151879280154,
+      "increase_ci_lo": -0.0008818158667299245,
+      "increase_ci_hi": 0.0013025789043155276,
+      "seeds_increase": "3/5",
+      "reversal_fraction": -0.010190661605932998,
+      "reversal_ci_lo": -0.02869310386792567,
+      "reversal_ci_hi": 0.008311780656059673,
+      "excess_over_noise": 0.0008738924626775834,
+      "excess_ci_lo": -0.002094296523822126,
+      "excess_ci_hi": 0.0038420814491772932,
+      "seeds_excess": "3/5",
+      "node_recovery_D": -0.01608232948929064,
+      "node_recovery_Heval": 0.01114537119865416,
+      "node_specific_ci_lo": -0.08121202857194358,
+      "raw_shift_D": -0.0076481720432638595,
+      "raw_shift_Heval": -0.0051727903541177,
+      "raw_target_gap_D": 0.2174221038818359,
+      "raw_target_gap_Heval": -0.00480829204898322,
+      "raw_shift_D_minus_Heval": -0.00247538168914612,
+      "raw_diff_ci_lo": -0.00557214251267738,
+      "raw_diff_ci_hi": 0.0006213791343851402,
+      "seeds_unstable_recovery": "0/5",
+      "acc_drop_max": 0.001402337228714412,
+      "acc_drop_Original": -6.677796327203556e-05,
+      "acc_drop_FT": 0.001402337228714412,
+      "acc_q_FT": 0.7089148580968281,
+      "acc_fp32_FT": 0.7103171953255425,
+      "tpr_fpr_recal_FT": 0.012792814661973559,
+      "tpr_fpr_fp32thr_FT": 0.0346644010195412,
+      "upd_norm_ratio": 1.4550643920898438,
+      "upd_cosine": 0.6772581100463867,
+      "share_upd_erased": 0.5043112933635712,
+      "med_upd_over_bin": 0.19320636987686152,
+      "rounding_pull_to_original": 0.004473831625728028,
+      "clip_frac_FT": 0.0
+    }
+  ],
+  "verdict_counts": [
+    {
+      "dataset": "CiteSeer",
+      "dose": 100,
+      "verdict": "PRESERVED",
+      "n": 9
+    },
+    {
+      "dataset": "CiteSeer",
+      "dose": 100,
+      "verdict": "PRESERVED [clipping-dominated]",
+      "n": 3
+    },
+    {
+      "dataset": "Cora",
+      "dose": 100,
+      "verdict": "PRESERVED",
+      "n": 9
+    },
+    {
+      "dataset": "Cora",
+      "dose": 100,
+      "verdict": "PRESERVED [clipping-dominated]",
+      "n": 3
+    },
+    {
+      "dataset": "Cora",
+      "dose": 200,
+      "verdict": "PRESERVED",
+      "n": 9
+    },
+    {
+      "dataset": "Cora",
+      "dose": 200,
+      "verdict": "PRESERVED [clipping-dominated]",
+      "n": 3
+    }
+  ]
+}

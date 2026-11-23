@@ -1,0 +1,114 @@
+{
+  "CiteSeer": {
+    "E1": "yes: fragile complete forgetting exists (RC-p0.25)",
+    "E2": {
+      "RC": {
+        "eligible": [
+          "RC-p0.00",
+          "RC-p0.25",
+          "RC-p0.50",
+          "RC-p0.75",
+          "RC-p0.90",
+          "RC-p1.00"
+        ],
+        "spearman_descriptive": -1.0,
+        "per_seed": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "per_seed_mean": -1.0,
+        "seeds_negative": "5/5",
+        "cluster_bootstrap_95": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "TF": {
+        "eligible": [
+          "TF-f0.01",
+          "TF-f0.05",
+          "TF-f0.10",
+          "TF-f0.25"
+        ],
+        "spearman_descriptive": 0.7999999999999999,
+        "per_seed": [
+          -0.7999999999999999,
+          -0.7999999999999999,
+          -0.19999999999999998,
+          -0.7999999999999999,
+          0.39999999999999997
+        ],
+        "per_seed_mean": -0.43999999999999995,
+        "seeds_negative": "4/5",
+        "cluster_bootstrap_95": [
+          -0.7999999999999999,
+          0.7999999999999999
+        ]
+      }
+    },
+    "E3": {
+      "smallest_free_share_passing": null,
+      "its_reversal_fraction": null,
+      "its_rho_flagged": null
+    }
+  },
+  "Cora": {
+    "E1": "yes: fragile complete forgetting exists (RC-p0.25)",
+    "E2": {
+      "RC": {
+        "eligible": [
+          "RC-p0.00",
+          "RC-p0.25",
+          "RC-p0.50",
+          "RC-p0.75",
+          "RC-p0.90",
+          "RC-p1.00"
+        ],
+        "spearman_descriptive": -1.0,
+        "per_seed": [
+          -1.0,
+          -0.942857142857143,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "per_seed_mean": -0.9885714285714287,
+        "seeds_negative": "5/5",
+        "cluster_bootstrap_95": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "TF": {
+        "eligible": [
+          "TF-f0.01",
+          "TF-f0.05",
+          "TF-f0.10",
+          "TF-f0.25"
+        ],
+        "spearman_descriptive": -0.7999999999999999,
+        "per_seed": [
+          -0.7999999999999999,
+          0.6000000000000001,
+          -0.7999999999999999,
+          -0.19999999999999998,
+          -0.7999999999999999
+        ],
+        "per_seed_mean": -0.3999999999999999,
+        "seeds_negative": "4/5",
+        "cluster_bootstrap_95": [
+          -1.0,
+          -0.19999999999999998
+        ]
+      }
+    },
+    "E3": {
+      "smallest_free_share_passing": null,
+      "its_reversal_fraction": null,
+      "its_rho_flagged": null
+    }
+  }
+}

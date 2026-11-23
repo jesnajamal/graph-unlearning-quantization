@@ -1,0 +1,8 @@
+{
+  "device": "cpu",
+  "gpu": null,
+  "torch": "2.11.0+cpu",
+  "torch_geometric": "2.8.1",
+  "smoke_test": false,
+  "started": "2026-11-20 19:22:22"
+}
