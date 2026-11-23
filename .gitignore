@@ -1,0 +1,13 @@
+data/
+__pycache__/
+.ipynb_checkpoints/
+*.pt
+*.zip
+# output folders the notebooks create when run locally
+/exp*_smoke_test/
+/exp6_fp32_screening/
+/exp6_quantization/
+/exp7_positive_control/
+/exp8_confinement_curve/
+/exp8b_diagnostic/
+/exp8_extracted/
